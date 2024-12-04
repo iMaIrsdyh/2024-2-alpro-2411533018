@@ -8,6 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Font;
 
 public class Aritmatika {
 
@@ -129,8 +130,9 @@ public class Aritmatika {
         btnNewButton.setBounds(49, 168, 86, 23);
         frame.getContentPane().add(btnNewButton);
         
-        lblNewLabel_1 = new JLabel("New label");
-        lblNewLabel_1.setBounds(67, 34, 45, 13);
+        lblNewLabel_1 = new JLabel("Kalkulator Sederhana");
+        lblNewLabel_1.setFont(new Font("Tw Cen MT", Font.BOLD, 12));
+        lblNewLabel_1.setBounds(38, 34, 109, 13);
         frame.getContentPane().add(lblNewLabel_1);
     }
 }
