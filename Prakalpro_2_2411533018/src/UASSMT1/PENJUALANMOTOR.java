@@ -13,9 +13,7 @@ public class PENJUALANMOTOR {
         } while (ulang);
     }
 
-    /**
-     * @wbp.parser.entryPoint
-     */
+   
     public static boolean jalankanAplikasi() {
         // Frame utama
         JFrame frame = new JFrame("Aplikasi Penjualan Motor");
@@ -128,7 +126,7 @@ public class PENJUALANMOTOR {
 
         // Event Handling
         buttonHitung.addActionListener(new ActionListener() {
-            @Override
+       
             public void actionPerformed(ActionEvent e) {
                 String merk = (String) comboMerk.getSelectedItem();
                 String jenis = "";
@@ -168,7 +166,6 @@ public class PENJUALANMOTOR {
         });
 
         buttonHitungLagi.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
                 fieldNama.setText("");
                 jenisGroup.clearSelection();
